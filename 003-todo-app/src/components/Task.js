@@ -1,5 +1,3 @@
-import React from "react";
-
 const Task = (props) => {
 	const isDone = props.status;
 
@@ -9,14 +7,14 @@ const Task = (props) => {
 				<h2>{props.name}</h2>
 
 				{isDone ? (
-					<p className="done-status">Yay you are done! 🥳</p>
+					<p className="Done-Status">Yay you are done! 🥳</p>
 				) : (
-					<button className="done-btn" onClick={() => props.completeTask(props.id)}>
+					<button className="Done-Btn" onClick={() => props.completeTask(props.id)}>
 						I am done
 					</button>
 				)}
 
-				<button className="delete-btn" onClick={() => props.deleteTask(props.id)}>
+				<button className="Delete-Btn" onClick={() => props.deleteTask(props.id)}>
 					Delete
 				</button>
 			</div>

@@ -1,10 +1,9 @@
-import React from "react";
 import TaskList from "./TaskList";
 
 const PendingTasks = (props) => {
 	return (
 		<div>
-			<h1 className="page-status">Pending Tasks</h1>
+			<h1 className="Page-Status">Pending Tasks</h1>
 			<TaskList
 				tasks={props.tasks}
 				completeTask={props.completeTask}

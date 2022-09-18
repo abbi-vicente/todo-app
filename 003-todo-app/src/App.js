@@ -93,21 +93,21 @@ const App = () => {
 	return (
 		<div className="App">
 			<div>
-				<h1 className="app-title">{title}</h1>
+				<h1 className="App-Title">{title}</h1>
 				<nav className="Header">
 					<Link to="All">All Tasks</Link> |<Link to="Done">Done Tasks</Link> |<Link to="Pending">Pending Tasks </Link>
 				</nav>
 				<br />
-				<form className="add-todo" onSubmit={onSubmit}>
+				<form className="Add-Todo" onSubmit={onSubmit}>
 					<input
 						type="text"
 						placeholder="Add a task"
 						value={name}
 						name="text"
-						className="input-todo"
+						className="Input-Todo"
 						onChange={onChange}
 					/>
-					<button className="todo-btn">Add</button>
+					<button className="Todo-Btn">Add</button>
 				</form>
 			</div>
 

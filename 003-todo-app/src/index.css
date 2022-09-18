@@ -30,10 +30,9 @@ body {
 	color: #ccc;
 	font-size: 2vh;
 }
-.todo-btn,
-.done-btn,
-.delete-btn,
-.edit-btn {
+.Todo-Btn,
+.Done-Btn,
+.Delete-Btn {
 	display: inline-block;
 	background: #a2d5ab;
 	color: rgb(35, 30, 31);
@@ -46,40 +45,39 @@ body {
 	font-size: 1.5vh;
 	font-family: inherit;
 }
-.todo-btn:hover,
-.done-btn:hover,
-.edit-btn:hover {
+.Todo-Btn:hover,
+.Done-Btn:hover {
 	background-color: #cbeed1;
 	border: #557b83 0.5px solid;
 }
 
-.delete-btn {
+.Delete-Btn {
 	float: right;
 	background-color: #c5211c;
 	color: #ccc;
 	border: #c5211c 0.5px solid;
 }
-.delete-btn:hover {
+.Delete-Btn:hover {
 	background-color: #d36461;
 	border: #c5211c 0.5px solid;
 	color: black;
 }
 form,
 nav,
-.app-title {
+.App-Title {
 	margin-bottom: 5vh;
 	display: flex;
 	justify-content: center;
 	color: #ccc;
 	text-transform: uppercase;
 }
-.page-status {
+.Page-Status {
 	color: #ccc;
 	display: flex;
 	justify-content: center;
 	font-size: 3.5vh;
 }
-.done-status {
+.Done-Status {
 	display: inline-block;
 	color: #557b83;
 	margin: 1.25vh;
@@ -109,7 +107,7 @@ input {
 }
 /* mobile responsiveness */
 @media only screen and (min-width: 320px) and (max-width: 575px) {
-	.app-title {
+	.App-Title {
 		font-size: 3vh;
 	}
 	.App {
@@ -121,20 +119,19 @@ input {
 		font-size: 1.1vh;
 		margin: 0;
 	}
-	.todo-btn,
-	.done-btn,
-	.delete-btn,
-	.edit-btn {
+	.Todo-Btn,
+	.Done-Btn,
+	.Delete-Btn {
 		padding: 0.5vh 0.75vh;
 		font-size: 1vh;
 	}
-	.delete-btn {
+	.Delete-Btn {
 		display: flex;
 	}
-	.page-status {
+	.Page-Status {
 		font-size: 2.5vh;
 	}
-	.done-status {
+	.Done-Status {
 		font-size: 1vh;
 		margin: 0;
 	}
@@ -152,23 +149,22 @@ input {
 }
 /* mobile responsiveness lanscape */
 @media only screen and (min-height: 320px) and (max-height: 575px) {
-	.app-title {
+	.App-Title {
 		font-size: 50vh;
 	}
 	.Header {
 		font-size: 0.5vh;
 	}
-	.todo-btn,
-	.done-btn,
-	.delete-btn,
-	.edit-btn {
+	.Todo-Btn,
+	.Done-Btn,
+	.Delete-Btn {
 		padding: 2vh 2.5vh;
 		font-size: 2.5vh;
 	}
-	.page-status {
+	.Page-Status {
 		font-size: 3.5vh;
 	}
-	.done-status {
+	.Done-Status {
 		font-size: 3vh;
 	}
 	input {
@@ -184,7 +180,7 @@ input {
 }
 /* tablet */
 @media only screen and (min-width: 600px) and (max-width: 1000px) {
-	.app-title {
+	.App-Title {
 		font-size: 3.5vh;
 	}
 	.App {
@@ -193,14 +189,13 @@ input {
 	.Header {
 		font-size: 2vh;
 	}
-	.todo-btn,
-	.done-btn,
-	.delete-btn,
-	.edit-btn {
+	.Todo-Btn,
+	.Done-Btn,
+	.Delete-Btn {
 		padding: 1vh 2.5vh;
 		font-size: 1.5vh;
 	}
-	.done-status {
+	.Done-Status {
 		font-size: 1.75vh;
 		margin-top: 0.75vh;
 	}
@@ -218,23 +213,22 @@ input {
 }
 /* tablet landscape*/
 @media only screen and (min-height: 320px) and (max-height: 768px) {
-	.app-title {
+	.App-Title {
 		font-size: 8vh;
 	}
 	.Header {
 		font-size: 4.5vh;
 	}
-	.todo-btn,
-	.done-btn,
-	.delete-btn,
-	.edit-btn {
+	.Todo-Btn,
+	.Done-Btn,
+	.Delete-Btn {
 		padding: 2vh 2.5vh;
 		font-size: 2.5vh;
 	}
-	.page-status {
+	.Page-Status {
 		font-size: 5.5vh;
 	}
-	.done-status {
+	.Done-Status {
 		font-size: 4vh;
 	}
 	input {
@@ -271,14 +265,13 @@ input {
 	.Header {
 		font-size: 2vh;
 	}
-	.todo-btn,
-	.done-btn,
-	.delete-btn,
-	.edit-btn {
+	.Todo-Btn,
+	.Done-Btn,
+	.Delete-Btn {
 		padding: 1vh 2.5vh;
 		font-size: 1.5vh;
 	}
-	.done-status {
+	.Done-Status {
 		font-size: 1.75vh;
 		margin-top: 0.75vh;
 	}

@@ -1,4 +1,3 @@
-import React from "react";
 import Task from "./Task";
 import {useParams} from "react-router";
 
