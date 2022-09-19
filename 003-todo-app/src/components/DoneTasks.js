@@ -1,5 +1,6 @@
 import TaskList from "./TaskList";
 
+// shows only done tasks
 const DoneTasks = (props) => {
 	return (
 		<div>

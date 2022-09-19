@@ -1,5 +1,6 @@
 import TaskList from "./TaskList";
 
+// shows only pending tasks
 const PendingTasks = (props) => {
 	return (
 		<div>

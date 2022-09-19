@@ -1,5 +1,6 @@
 import Task from "./Task";
 
+// shows all (done and pending tasks)
 const AllTasks = (props) => {
 	const tasks = props.tasks.map((task) => {
 		return (

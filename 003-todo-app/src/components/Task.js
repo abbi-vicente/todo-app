@@ -1,4 +1,5 @@
 const Task = (props) => {
+	// checks if done status is true or false
 	const isDone = props.status;
 
 	return (

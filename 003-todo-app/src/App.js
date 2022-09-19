@@ -32,6 +32,7 @@ const App = () => {
 		},
 	]);
 
+	// for the done button
 	const completeTaskHandler = (id) => {
 		let newState = [...tasks];
 
@@ -45,6 +46,7 @@ const App = () => {
 		setTasks(newState);
 	};
 
+	// task name
 	const [name, setName] = useState("");
 
 	const onChange = (e) => {
